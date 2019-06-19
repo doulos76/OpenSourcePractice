@@ -1,0 +1,16 @@
+PODS:
+  - DynamicColor (4.1.0)
+
+DEPENDENCIES:
+  - DynamicColor (~> 4.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DynamicColor
+
+SPEC CHECKSUMS:
+  DynamicColor: e72fcf4174518c514e862bb4bdea794c1865b412
+
+PODFILE CHECKSUM: fda857746d986b08d16fef002432860459be0e51
+
+COCOAPODS: 1.6.1
