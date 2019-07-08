@@ -1,0 +1,6 @@
+framework module Pods_TextureQuickExample {
+  umbrella header "Pods-TextureQuickExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
