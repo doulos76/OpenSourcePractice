@@ -1,0 +1,6 @@
+framework module Pods_TextureQuickTableExample {
+  umbrella header "Pods-TextureQuickTableExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TextureASViewControllerTest {
+  umbrella header "Pods-TextureASViewControllerTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
