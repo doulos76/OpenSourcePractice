@@ -20,6 +20,9 @@
 		72CF9E2722D35D6700064D1F /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF9E2622D35D6700064D1F /* RepositoryViewModel.swift */; };
 		72CF9E2922D360AF00064D1F /* RepoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF9E2822D360AF00064D1F /* RepoProvider.swift */; };
 		72CF9E2B22D364F500064D1F /* Decoder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF9E2A22D364F500064D1F /* Decoder+extension.swift */; };
+		72FDD44D22D4A63F00C50CAA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDD44C22D4A63F00C50CAA /* Network.swift */; };
+		72FDD44F22D4A85C00C50CAA /* RepoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDD44E22D4A85C00C50CAA /* RepoService.swift */; };
+		72FDD45122D4AA3400C50CAA /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDD45022D4AA3400C50CAA /* UserProfileViewController.swift */; };
 		76AD7D8D8DF8ABFA63302B3B /* Pods_RxMVVM_Texture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF967B5A0E9FA906BEAFF871 /* Pods_RxMVVM_Texture.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		72CF9E2622D35D6700064D1F /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
 		72CF9E2822D360AF00064D1F /* RepoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoProvider.swift; sourceTree = "<group>"; };
 		72CF9E2A22D364F500064D1F /* Decoder+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decoder+extension.swift"; sourceTree = "<group>"; };
+		72FDD44C22D4A63F00C50CAA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		72FDD44E22D4A85C00C50CAA /* RepoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoService.swift; sourceTree = "<group>"; };
+		72FDD45022D4AA3400C50CAA /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		B53B8A127EF9EA0D6BEBD8B7 /* Pods-RxMVVM+Texture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM+Texture.release.xcconfig"; path = "Target Support Files/Pods-RxMVVM+Texture/Pods-RxMVVM+Texture.release.xcconfig"; sourceTree = "<group>"; };
 		EF967B5A0E9FA906BEAFF871 /* Pods_RxMVVM_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,7 +128,6 @@
 				72CF9E1C22D3581100064D1F /* DataProvider */,
 				72CF9E1B22D3580400064D1F /* ViewModels */,
 				72CF9E1A22D357F500064D1F /* Models */,
-				72CF9E1922D357EE00064D1F /* Views */,
 				72CF9E1822D357D100064D1F /* Controllers */,
 				72CF9DF822D354E400064D1F /* ViewController.swift */,
 				72CF9DFA22D354E400064D1F /* Main.storyboard */,
@@ -146,15 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				72CF9E1622D356E700064D1F /* RepositoryViewController.swift */,
+				72FDD45022D4AA3400C50CAA /* UserProfileViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		72CF9E1922D357EE00064D1F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		72CF9E1A22D357F500064D1F /* Models */ = {
@@ -193,6 +192,8 @@
 		72CF9E1E22D3582800064D1F /* Networks */ = {
 			isa = PBXGroup;
 			children = (
+				72FDD44C22D4A63F00C50CAA /* Network.swift */,
+				72FDD44E22D4A85C00C50CAA /* RepoService.swift */,
 			);
 			path = Networks;
 			sourceTree = "<group>";
@@ -350,10 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FDD44D22D4A63F00C50CAA /* Network.swift in Sources */,
+				72FDD45122D4AA3400C50CAA /* UserProfileViewController.swift in Sources */,
 				72CF9E2722D35D6700064D1F /* RepositoryViewModel.swift in Sources */,
 				72CF9DF922D354E400064D1F /* ViewController.swift in Sources */,
 				72CF9E1722D356E700064D1F /* RepositoryViewController.swift in Sources */,
 				72CF9DF722D354E400064D1F /* AppDelegate.swift in Sources */,
+				72FDD44F22D4A85C00C50CAA /* RepoService.swift in Sources */,
 				72CF9E2322D3588900064D1F /* User.swift in Sources */,
 				72CF9E2122D3586400064D1F /* Repository.swift in Sources */,
 				72CF9E2B22D364F500064D1F /* Decoder+extension.swift in Sources */,

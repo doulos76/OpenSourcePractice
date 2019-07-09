@@ -10,8 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-class RepositoryViewModel {
-  
+class RepositoryViewModel {  
   
   //@INPUT
   let updateRepository = PublishRelay<Repository>()
